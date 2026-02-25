@@ -252,7 +252,7 @@
         "0.4157"
     ],
     "pressure_advance": [
-        "0.001"
+        "0.002"
     ],
     "reduce_fan_stop_start_freq": [
         "1"
