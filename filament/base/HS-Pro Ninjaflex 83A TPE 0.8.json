@@ -64,10 +64,10 @@
         "80"
     ],
     "fan_max_speed": [
-        "100"
+        "60"
     ],
     "fan_min_speed": [
-        "100"
+        "60"
     ],
     "filament_cooling_final_speed": [
         "3.4"
@@ -252,7 +252,7 @@
         "0.4157"
     ],
     "pressure_advance": [
-        "0"
+        "0.21"
     ],
     "reduce_fan_stop_start_freq": [
         "1"
