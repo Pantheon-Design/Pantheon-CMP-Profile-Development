@@ -164,10 +164,10 @@
         "HS-Pro PA-CF Strength 0.65-0.8 BigLittle"
     ],
     "filament_shrink": [
-        "99.86%"
+        "100%"
     ],
     "filament_shrinkage_compensation_z": [
-        "99.74%"
+        "99.7%"
     ],
     "filament_soluble": [
         "0"
