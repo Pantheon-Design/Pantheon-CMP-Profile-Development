@@ -230,6 +230,7 @@
     "solid_infill_direction": "45",
     "solid_infill_filament": "1",
     "solid_infill_rotate_template": "",
+    "solid_infill_wall_overlap": "2%",
     "sparse_infill_acceleration": "0",
     "sparse_infill_density": "20%",
     "sparse_infill_filament": "1",
