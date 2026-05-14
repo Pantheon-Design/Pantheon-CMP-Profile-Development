@@ -6,13 +6,13 @@
         "0"
     ],
     "adaptive_pressure_advance": [
-        "0"
+        "1"
     ],
     "adaptive_pressure_advance_bridges": [
-        "0"
+        "0.001"
     ],
     "adaptive_pressure_advance_model": [
-        "0.0003, 19.421, 15000\n0.0085, 5.826, 15000\n0.005, 0.486, 15000\n0.0015, 14.543, 8000\n0.0015, 9.695, 8000\n0, 4.848, 8000\n0.005, 14.566, 4000\n0.009, 5.826, 4000\n0.008, 8.740, 4000"
+        ""
     ],
     "adaptive_pressure_advance_overhangs": [
         "0"
@@ -21,7 +21,7 @@
         "0"
     ],
     "chamber_temperature": [
-        "45"
+        "35"
     ],
     "close_fan_the_first_x_layers": [
         "1"
@@ -31,22 +31,22 @@
     "compatible_prints": [],
     "compatible_prints_condition": "",
     "complete_print_exhaust_fan_speed": [
-        "0"
+        "80"
     ],
     "cool_plate_temp": [
-        "90"
+        "80"
     ],
     "cool_plate_temp_initial_layer": [
-        "90"
+        "80"
     ],
     "default_filament_colour": [
-        "#303030"
+        "#505050"
     ],
     "dont_slow_down_outer_wall": [
-        "0"
+        "1"
     ],
     "during_print_exhaust_fan_speed": [
-        "0"
+        "60"
     ],
     "enable_overhang_bridge_fan": [
         "1"
@@ -55,19 +55,19 @@
         "1"
     ],
     "eng_plate_temp": [
-        "90"
+        "80"
     ],
     "eng_plate_temp_initial_layer": [
-        "90"
+        "80"
     ],
     "fan_cooling_layer_time": [
-        "30"
+        "10"
     ],
     "fan_max_speed": [
-        "15"
+        "60"
     ],
     "fan_min_speed": [
-        "0"
+        "15"
     ],
     "filament_cooling_final_speed": [
         "3.4"
@@ -79,13 +79,13 @@
         "4"
     ],
     "filament_cost": [
-        "116"
+        "50"
     ],
     "filament_density": [
-        "1.16"
+        "1.18"
     ],
     "filament_deretraction_speed": [
-        "35"
+        "20"
     ],
     "filament_diameter": [
         "1.75"
@@ -96,7 +96,7 @@
     "filament_flow_ratio": [
         "1"
     ],
-    "filament_id": "PD05",
+    "filament_id": "PD07",
     "filament_is_support": [
         "0"
     ],
@@ -125,13 +125,13 @@
         "10"
     ],
     "filament_notes": [
-        ""
+        ".96 flow for 280C\n\n0.001, 2.7, 14000\n0.005, 13.5, 14000\n0.01, 27. 14000\n0.007, 2.7, 4000\n0.01, 13.5, 4000\n0.012, 27, 4000"
     ],
     "filament_ramming_parameters": [
         "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
     ],
     "filament_retract_before_wipe": [
-        "0%"
+        "100%"
     ],
     "filament_retract_lift_above": [
         "0"
@@ -152,22 +152,22 @@
         "nil"
     ],
     "filament_retraction_length": [
-        "0.4"
+        "0.6"
     ],
     "filament_retraction_minimum_travel": [
         "2"
     ],
     "filament_retraction_speed": [
-        "35"
+        "40"
     ],
     "filament_settings_id": [
-        "HS-Pro 3D-Fuel PCTG-Pro-CF 0.5mm"
+        "HS-Pro PCTG-PRO-GF 3DFUEL 0.4"
     ],
     "filament_shrink": [
-        "99.86%"
+        "99.82%"
     ],
     "filament_shrinkage_compensation_z": [
-        "99.74%"
+        "100%"
     ],
     "filament_soluble": [
         "0"
@@ -179,13 +179,13 @@
         "0"
     ],
     "filament_start_gcode": [
-        "SET_VELOCITY_LIMIT ACCEL=150000\nSET_VELOCITY_LIMIT ACCEL_TO_DECEL=75000\nSET_VELOCITY_LIMIT VELOCITY=500\nSET_VELOCITY_LIMIT SQUARE_CORNER_VELOCITY=5\nSET_PRESSURE_ADVANCE SMOOTH_TIME=0.04\n\nSET_GCODE_OFFSET Z=0.12"
+        "SET_VELOCITY_LIMIT ACCEL=150000\nSET_VELOCITY_LIMIT ACCEL_TO_DECEL=75000\nSET_VELOCITY_LIMIT VELOCITY=500\nSET_VELOCITY_LIMIT SQUARE_CORNER_VELOCITY=5\nSET_PRESSURE_ADVANCE SMOOTH_TIME=0.04\n\nSET_GCODE_OFFSET Z=0.06\n"
     ],
     "filament_toolchange_delay": [
         "0"
     ],
     "filament_type": [
-        "PA-CF"
+        "PETG-CF"
     ],
     "filament_unloading_speed": [
         "90"
@@ -200,7 +200,7 @@
         "1"
     ],
     "filament_wipe_distance": [
-        "1"
+        "2"
     ],
     "filament_z_hop": [
         "0.2"
@@ -213,10 +213,10 @@
         "0"
     ],
     "hot_plate_temp": [
-        "90"
+        "80"
     ],
     "hot_plate_temp_initial_layer": [
-        "90"
+        "80"
     ],
     "idle_temperature": [
         "100"
@@ -229,45 +229,45 @@
         "-1"
     ],
     "is_custom_defined": "0",
-    "name": "HS-Pro 3D-Fuel PCTG-Pro-CF 0.5mm",
+    "name": "HS-Pro PCTG-PRO-GF 3DFUEL 0.4",
     "nozzle_temperature": [
-        "270"
+        "280"
     ],
     "nozzle_temperature_initial_layer": [
-        "270"
+        "280"
     ],
     "nozzle_temperature_range_high": [
-        "330"
+        "320"
     ],
     "nozzle_temperature_range_low": [
-        "300"
+        "275"
     ],
     "overhang_fan_speed": [
         "75"
     ],
     "overhang_fan_threshold": [
-        "75%"
+        "25%"
     ],
     "pellet_flow_coefficient": [
         "0.4157"
     ],
     "pressure_advance": [
-        "0.029"
+        "0.025"
     ],
     "reduce_fan_stop_start_freq": [
         "1"
     ],
     "required_nozzle_HRC": [
-        "60"
+        "0"
     ],
     "slow_down_for_layer_cooling": [
         "1"
     ],
     "slow_down_layer_time": [
-        "12"
+        "2"
     ],
     "slow_down_min_speed": [
-        "10"
+        "1"
     ],
     "supertack_plate_temp": [
         "35"
@@ -282,16 +282,16 @@
         "220"
     ],
     "textured_cool_plate_temp": [
-        "90"
+        "80"
     ],
     "textured_cool_plate_temp_initial_layer": [
-        "90"
+        "80"
     ],
     "textured_plate_temp": [
-        "90"
+        "80"
     ],
     "textured_plate_temp_initial_layer": [
-        "90"
+        "80"
     ],
     "version": "3.1.1.0"
 }
