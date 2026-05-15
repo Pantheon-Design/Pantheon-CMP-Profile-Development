@@ -110,7 +110,7 @@
         "nil"
     ],
     "filament_max_volumetric_speed": [
-        "40"
+        "30"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "15"
@@ -231,7 +231,7 @@
     "is_custom_defined": "0",
     "name": "Logan PA-GF 0.8 HF",
     "nozzle_temperature": [
-        "310"
+        "320"
     ],
     "nozzle_temperature_initial_layer": [
         "320"
