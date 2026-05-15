@@ -6,7 +6,7 @@
         "0"
     ],
     "adaptive_pressure_advance": [
-        "1"
+        "0"
     ],
     "adaptive_pressure_advance_bridges": [
         "0.001"

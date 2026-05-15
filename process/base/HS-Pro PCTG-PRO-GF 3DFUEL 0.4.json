@@ -231,7 +231,7 @@
     "solid_infill_filament": "1",
     "solid_infill_rotate_template": "",
     "solid_infill_wall_overlap": "0%",
-    "sparse_infill_acceleration": "8000",
+    "sparse_infill_acceleration": "4000",
     "sparse_infill_density": "15%",
     "sparse_infill_filament": "1",
     "sparse_infill_flow_ratio": "1",
