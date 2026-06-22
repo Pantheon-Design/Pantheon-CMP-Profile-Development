@@ -1,0 +1,27 @@
+name: Mirror Sohrab-Playground-3.1.1 to CMP repo
+
+on:
+  push:
+    branches: [Sohrab-Playground-3.1.1]
+  workflow_dispatch:
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: Sohrab-Playground-3.1.1
+          fetch-depth: 0
+
+      - name: Push branch -> CMP repo main
+        env:
+          DEPLOY_KEY: ${{ secrets.REPO_B_DEPLOY_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$DEPLOY_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
+          export GIT_SSH_COMMAND="ssh -i ~/.ssh/id_ed25519 -o IdentitiesOnly=yes"
+          git push --force git@github.com:Pantheon-Design/Pantheon-CMP-Profile-Development.git \
+            HEAD:refs/heads/main
