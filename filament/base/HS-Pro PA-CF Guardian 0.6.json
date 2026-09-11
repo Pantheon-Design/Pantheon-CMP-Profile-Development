@@ -152,7 +152,7 @@
         "nil"
     ],
     "filament_retraction_length": [
-        "0.45"
+        "0.8"
     ],
     "filament_retraction_minimum_travel": [
         "2"
