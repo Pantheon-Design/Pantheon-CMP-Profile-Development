@@ -203,10 +203,10 @@
         "5"
     ],
     "filament_z_hop": [
-        "0.2"
+        "0.6"
     ],
     "filament_z_hop_types": [
-        "Slope Lift"
+        "Normal Lift"
     ],
     "from": "User",
     "full_fan_speed_layer": [
